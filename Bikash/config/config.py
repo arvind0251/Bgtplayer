@@ -20,11 +20,11 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "༺ 𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1439222689").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BikashHalderNew/Bgtplayer")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/arvind0251/Bgtplayer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Bgt_Chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.m/ROC_KY098")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ROC_KY098")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "150"))
@@ -71,12 +71,12 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/3127b3484676bd2254e97.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/bd9b328683fa00b1eb319.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/3127b3484676bd2254e97.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
-GLOBAL_IMG_URL = "https://te.legra.ph/file/2e2741f5dfe9f62eed91d.png"
-STATS_IMG_URL = "https://te.legra.ph/file/2be94fc76030833b51a78.png"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/c8135608b7f9f77541a82.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/2e2741f5dfe9f62eed91d.png"
+STATS_IMG_URL = "https://telegra.ph/file/2be94fc76030833b51a78.png"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
 STREAM_IMG_URL = "https://graph.org/file/93882ae5ea01a7bf687b1.jpg"
@@ -110,9 +110,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/3127b3484676bd2254e97.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/3127b3484676bd2254e97.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
+            START_IMG_URL = "https://telegra.ph/file/c8135608b7f9f77541a82.jpg"
